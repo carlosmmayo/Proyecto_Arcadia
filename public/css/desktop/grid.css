@@ -1,0 +1,15 @@
+.contenido {
+	display: grid;
+	grid-template: 
+	"conten-principal login"
+	"conten-principal login";
+	grid-template-columns: 1fr 33em;
+}
+
+.login {
+	grid-area: login;
+}
+
+.conten-principal {
+	grid-area: conten-principal;
+}
